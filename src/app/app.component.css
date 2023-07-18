@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);
+  background: linear-gradient(to right, #8CA6DB, #B993D6);
+}
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  border: 3px solid;
+  border-image: linear-gradient(45deg,red,blue) 10;
+  border-radius: 15px;
+  
+}
+.input {
+  padding: 18px;
+  text-align: center;
+}
+
+label{
+  padding: 5px;
+}
+
+#button {
+  margin: 5px;
+}
+
+.result {
+  text-align: center;
+  padding: 18px;
+}
